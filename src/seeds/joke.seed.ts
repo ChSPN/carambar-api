@@ -12,46 +12,46 @@ import { initializeDatabase } from "../config/database.js";
 
 const jokes = [
   {
-    text: "Pourquoi les plongeurs plongent-ils toujours en arrière ?\nParce que sinon, ils tombent dans le bateau !",
+    text: "Pourquoi les plongeurs plongent-ils toujours en arrière ?<br/>Parce que sinon, ils tombent dans le bateau !",
   },
   {
-    text: "Quel est le comble pour un électricien ?\nNe pas être au courant !",
+    text: "Quel est le comble pour un électricien ?<br/>Ne pas être au courant !",
   },
   {
-    text: "Pourquoi les fantômes sont-ils de si mauvais menteurs ?\nParce qu'on peut lire à travers eux !",
+    text: "Pourquoi les fantômes sont-ils de si mauvais menteurs ?<br/>Parce qu'on peut lire à travers eux !",
   },
   {
-    text: "Pourquoi les oiseaux ne prennent-ils pas de douches ?\nParce qu'ils préfèrent les bains de soleil !",
+    text: "Pourquoi les oiseaux ne prennent-ils pas de douches ?<br/>Parce qu'ils préfèrent les bains de soleil !",
   },
   {
-    text: "Quelle est la femelle du hamster ?\nL’Amsterdam !",
+    text: "Quelle est la femelle du hamster ?<br/>L’Amsterdam !",
   },
   {
-    text: "Que dit un oignon quand il se cogne ?\nAïe !",
+    text: "Que dit un oignon quand il se cogne ?<br/>Aïe !",
   },
   {
-    text: "Quel est l'animal le plus heureux ?\nLe hibou, parce que sa femme est chouette !",
+    text: "Quel est l'animal le plus heureux ?<br/>Le hibou, parce que sa femme est chouette !",
   },
   {
-    text: "Pourquoi le football c'est rigolo ?\nParce que Thierry en rit !",
+    text: "Pourquoi le football c'est rigolo ?<br/>Parce que Thierry en rit !",
   },
   {
-    text: "Quel est le sport le plus fruité ?\nLa boxe, parce que tu te prends des pêches dans la poire et tu tombes dans les pommes !",
+    text: "Quel est le sport le plus fruité ?<br/>La boxe, parce que tu te prends des pêches dans la poire et tu tombes dans les pommes !",
   },
   {
-    text: "Que se fait un Schtroumpf quand il tombe ?\nUn Bleu !",
+    text: "Que se fait un Schtroumpf quand il tombe ?<br/>Un Bleu !",
   },
   {
-    text: "Quel est le comble pour un marin ?\nAvoir le nez qui coule !",
+    text: "Quel est le comble pour un marin ?<br/>Avoir le nez qui coule !",
   },
   {
-    text: "Qu'est ce que les enfants usent le plus à l'école ?\nLe professeur !",
+    text: "Qu'est ce que les enfants usent le plus à l'école ?<br/>Le professeur !",
   },
   {
-    text: "Quel est le sport le plus silencieux ?\nLe para-chuuuut !",
+    text: "Quel est le sport le plus silencieux ?<br/>Le para-chuuuut !",
   },
   {
-    text: "Quel est le comble pour un joueur de bowling ?\nC’est de perdre la boule !",
+    text: "Quel est le comble pour un joueur de bowling ?<br/>C’est de perdre la boule !",
   },
 ];
 /**

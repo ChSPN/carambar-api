@@ -69,7 +69,7 @@ Joke.init(
     },
     updatedAt: {
       type: DataTypes.DATE,
-      allowNull: false,
+      allowNull: true,
       defaultValue: DataTypes.NOW, // Mis à jour automatiquement
     }
   },

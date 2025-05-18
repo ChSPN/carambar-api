@@ -3,7 +3,8 @@
 ![Illustration du générateur de blagues](src/images/application.png)
 
 ## Présentation du projet
-Ce projet est une API RESTful générant des blagues de façon aléatoire, développée avec Node.js, Express, TypeScript et Sequelize. Il constitue un exercice de démonstration pour ma candidature à l'école d'informatique Simplon.
+Ce projet est une API RESTful générant des blagues de façon aléatoire, développée avec Node.js, Express, TypeScript et Sequelize.  
+Il constitue un exercice de démonstration pour ma candidature à l'école d'informatique Simplon.
 
 
 ## Technologies utilisées
@@ -56,18 +57,18 @@ La documentation complète de l'API est disponible via Swagger UI une fois le se
 
 
 ## Structure du projet côté backend
-carambar-api/
-├── src/
-│   ├── config/        # Configuration (base de données, env)
-│   ├── controllers/   # Contrôleurs HTTP
-│   ├── models/        # Définitions des modèles Sequelize
-│   ├── routes/        # Définitions des routes API
-│   ├── seeds/         # Données initiales
-│   ├── app.ts         # Configuration de l'application Express
-│   └── server.ts      # Point d'entrée de l'application
-├── dist/              # Code TypeScript compilé
-├── tsconfig.json      # Configuration TypeScript
-├── package.json       # Dépendances et scripts
+carambar-api/  
+├── src/  
+│   ├── config/        # Configuration (base de données, env)  
+│   ├── controllers/   # Contrôleurs HTTP  
+│   ├── models/        # Définitions des modèles Sequelize  
+│   ├── routes/        # Définitions des routes API  
+│   ├── seeds/         # Données initiales  
+│   ├── app.ts         # Configuration de l'application Express  
+│   └── server.ts      # Point d'entrée de l'application  
+├── dist/              # Code TypeScript compilé  
+├── tsconfig.json      # Configuration TypeScript  
+├── package.json       # Dépendances et scripts  
 └── README.md          # Documentation du projet
 
 
@@ -80,10 +81,10 @@ carambar-api/
 
 
 ## Liens
-- **Application de blagues Carambar:** 
+- **Application de blagues Carambar:** https://chspn.github.io/carambar-front/
 - **Repository GitHub de la partie Backend:** https://github.com/CHSPN/carambar-api
 - **Repository Github de la partie Frontend:** https://github.com/CHSPN/carambar-front
-- **Documentation API:** 
+- **Documentation API:** https://carambar-api-h0la.onrender.com/
 
 
 ## Auteur
