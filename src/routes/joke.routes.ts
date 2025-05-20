@@ -22,14 +22,6 @@ const router = express.Router();
  *           type: string
  *           description: Contenu de la blague
  *           example: "Pourquoi les plongeurs plongent-ils toujours en arrière? Parce que sinon, ils tombent dans le bateau!"
- *         category:
- *           type: string
- *           description: Catégorie de la blague
- *           example: "Devinette"
- *         author:
- *           type: string
- *           description: Auteur de la blague
- *           example: "Carambar"
  *         createdAt:
  *           type: string
  *           format: date-time
@@ -118,12 +110,6 @@ router.get("/:id", getJokeById);
  *               text:
  *                 type: string
  *                 description: Contenu de la blague
- *               category:
- *                 type: string
- *                 description: Catégorie de la blague
- *               author:
- *                 type: string
- *                 description: Auteur de la blague
  *     responses:
  *       201:
  *         description: Blague créée avec succès
